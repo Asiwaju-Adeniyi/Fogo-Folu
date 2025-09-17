@@ -1,0 +1,29 @@
+# Build folders
+/build/
+/cmake-build-*/
+
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# IDE/project files
+.vscode/
+.idea/
+*.user
+*.workspace
+*.swp
+*.swo
+
+# Logs
+*.log
