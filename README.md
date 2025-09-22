@@ -25,14 +25,10 @@ Enter the size of the matrix: 3
 Time taken for matrix multiplication: 0.000123 seconds
 Throughput: 0.425 GFLOPS
 
-shell
-Copy code
-
 ### CSV (`results.csv`)
 Size (3), Time (0.000123 seconds), Throughput (0.425)
 
-yaml
-Copy code
+
 
 ---
 
@@ -51,16 +47,4 @@ Support larger workloads (e.g., N x M matrices, batched multiplications).
 
 Automate performance plots (Python + Matplotlib to visualize results.csv).
 
-
-# Fogo-Folu: AI Benchmark Tool
-
-## Build Instructions
-
-```bash
-git clone https://github.com/Asiwaju-Adeniyi/Fogo-Folu.git
-cd Fogo-Folu
-mkdir build && cd build
-cmake ..
-make
-./fogo-folu
 
