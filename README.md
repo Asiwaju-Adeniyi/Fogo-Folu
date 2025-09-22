@@ -50,3 +50,17 @@ Compare naive vs. cache-friendly / blocked matrix multiplication.
 Support larger workloads (e.g., N x M matrices, batched multiplications).
 
 Automate performance plots (Python + Matplotlib to visualize results.csv).
+
+
+# Fogo-Folu: AI Benchmark Tool
+
+## Build Instructions
+
+```bash
+git clone https://github.com/Asiwaju-Adeniyi/Fogo-Folu.git
+cd Fogo-Folu
+mkdir build && cd build
+cmake ..
+make
+./fogo-folu
+
