@@ -53,9 +53,8 @@ class Matrix {
             }
         }
 
-
-
     }
+
 
     void PrintMatrix(const Matrix& mat) {
         for(int i = 0; i < mat.rowCount(); ++i) {
@@ -66,6 +65,7 @@ class Matrix {
         }
     };
 
+    
 
     int main() {
 
@@ -114,6 +114,7 @@ class Matrix {
         if (results.is_open()) {
             results << std::fixed << std::setprecision(6);
             results << "Size (" << matSize << ")" << "," << "Time (" << elapsed.count() << " seconds)" << ", Througput (" << Throughput << ")" << "\n";
+            std::cout << "Writing results for matrix size: " << matSize << std::endl;
 
             results.close();
 
